@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using api.Services;  // Pretpostavimo da je SoapClientService u ovom namespace-u
+using api.Services;  
 using api.Interfaces;
 
 namespace api.Controllers
@@ -16,7 +16,6 @@ namespace api.Controllers
             _soapClientService = soapClientService;
         }
 
-        // API metoda koja koristi SoapClientService da preuzme podatke o korisniku po ID-u
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {

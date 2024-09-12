@@ -5669,11 +5669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lazarkostic/Desktop/Customer service campaign/api/api.csproj",
+      "projectUniqueName": "/Users/lazarkostic/Documents/Projects/API/Customer service campaign/api/api.csproj",
       "projectName": "api",
-      "projectPath": "/Users/lazarkostic/Desktop/Customer service campaign/api/api.csproj",
+      "projectPath": "/Users/lazarkostic/Documents/Projects/API/Customer service campaign/api/api.csproj",
       "packagesPath": "/Users/lazarkostic/.nuget/packages/",
-      "outputPath": "/Users/lazarkostic/Desktop/Customer service campaign/api/obj/",
+      "outputPath": "/Users/lazarkostic/Documents/Projects/API/Customer service campaign/api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lazarkostic/.nuget/NuGet/NuGet.Config"

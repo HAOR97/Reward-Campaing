@@ -38,10 +38,8 @@ namespace api.Services
 
                     var discount = await _discountRepository.GetValidDiscountForCustomer(record.CustomerId, record.PurchaseDate);
                     bool hasDiscount = discount != null && discount.Created.Date <= record.PurchaseDate.Date && !discount.IsUsed;
-                    //Console.WriteLine($"3.To je : {discount}");
 
 
-                    //Ažuriraj stanje popusta ako je korišćen
                     if (hasDiscount && discount != null)
                     {
                         var purchase = new PurchaseDto
@@ -49,7 +47,6 @@ namespace api.Services
                             CustomerId = record.CustomerId,
                             PurchaseDate = record.PurchaseDate,
                             Product = record.Product,
-                            //zapravo discount nikada ne moze biti null ovde
                             DiscountId = discount.Id,
                             DiscountAmount = discount.DiscountAmount
                         };

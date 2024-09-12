@@ -13,6 +13,7 @@ builder.Services.AddHttpClient<ISoapClientService, SoapClientService>();
 builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 builder.Services.AddControllers();
 builder.Services.AddScoped<ICsvService, CsvService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 21))));
 

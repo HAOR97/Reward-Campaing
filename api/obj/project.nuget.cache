@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ryOFNtgNNYBqfLIqH+NtPwXEBo5voyiQay8nLuEjLHrWzEVOvSDa+87/PM9/Ei/xGFD+lN9/k6d8ejfixLmQA==",
+  "dgSpecHash": "1BJdoUGKw4Qyr+CIfZpyNgmwzbzD6H9hSQg9T/BunNgp6CpT9vuGR6ZyRm+UdsnLoknYVoKIhWTEhwNfaj4fXw==",
   "success": true,
-  "projectFilePath": "/Users/lazarkostic/Desktop/Customer service campaign/api/api.csproj",
+  "projectFilePath": "/Users/lazarkostic/Documents/Projects/API/Customer service campaign/api/api.csproj",
   "expectedPackageFiles": [
     "/Users/lazarkostic/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512",
     "/Users/lazarkostic/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

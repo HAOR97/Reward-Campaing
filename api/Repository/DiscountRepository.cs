@@ -43,7 +43,7 @@ namespace api.Repository
                 && !d.IsUsed 
                 && d.Created <= purchaseDate
                 )
-                .OrderByDescending(d => d.Created) // Pretpostavimo da želimo najnoviji validan popust
+                .OrderByDescending(d => d.Created)
                 .FirstOrDefaultAsync();
         }
 
